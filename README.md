@@ -3,6 +3,17 @@
 O [API-Spring](https://github.com/andrerochasouza/api_spring_mysql_docker) é um projeto que tem como objetivo criar um servidor de API REST com Spring Boot e MySQL, conteirizado por um Dockerfile.
 
 
+## Utilização em forma de container (Docker)
+
+Abra qualquer terminal e execute o comando:
+
+```mvn clean install```
+
+Após isso, o projeto será compilado, execute esse comando com o Docker já instalado:
+
+```docker-compose up --build --force-recrerate```
+
+
 ## Métodos
 Requisições para a API devem seguir os padrões:
 | Método | Descrição |
