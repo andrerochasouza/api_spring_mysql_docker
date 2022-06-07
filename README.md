@@ -13,7 +13,7 @@ Abra qualquer terminal e execute o comando:
 
 Após isso, o projeto será compilado, execute esse comando com o Docker já instalado:
 
-```docker-compose up --build --force-recrerate```
+```docker-compose up --build --force-recreate```
 
 
 ## Métodos
